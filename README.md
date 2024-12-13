@@ -2,19 +2,6 @@
 
 Welcome to the **ITDesigns**! This guide covers the different types of websites, their core components, and services. Whether you're building an e-commerce site or a complex ERP system, this tutorial will help you understand what functionalities are needed to develop a successful website.
 
-## Table of Contents
-
-1. [Static Websites](#1-static-websites)
-2. [Dynamic Websites](#2-dynamic-websites)
-3. [Content Management System (CMS) Websites](#3-content-management-system-cms-websites)
-4. [E-commerce Websites](#4-e-commerce-websites)
-5. [Enterprise Resource Planning (ERP) Websites](#5-enterprise-resource-planning-erp-websites)
-6. [Customer Relationship Management (CRM) Websites](#6-customer-relationship-management-crm-websites)
-7. [Portals](#7-portals)
-8. [Social Networking Websites](#8-social-networking-websites)
-9. [Web Applications](#9-web-applications)
-10. [Personal or Portfolio Websites](#10-personal-or-portfolio-websites)
-
 ---
 
 ## [1. Static Websites](static/README.md)
