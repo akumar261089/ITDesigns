@@ -1,6 +1,6 @@
 # About Us
 
-Welcome to My Tutorial Site! We are dedicated to providing high-quality tutorials and learning resources on various subjects. Our mission is to empower learners with knowledge and practical skills.
+Welcome to ITDesigns Site! We are dedicated to providing high-quality tutorials and learning resources on various subjects. Our mission is to empower learners with knowledge and practical skills.
 
 ## Our Vision
 

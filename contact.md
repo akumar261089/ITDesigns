@@ -2,8 +2,8 @@
 
 We would love to hear from you!
 
-**Email:** support@mytutorialsite.com  
-**Phone:** +1 (555) 123-4567
+**Email:** akumar261089@gmail.com
+**Phone:**
 
 ## Connect with Us
 

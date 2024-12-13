@@ -223,7 +223,7 @@ Welcome to the **ITDesigns**! This guide covers the different types of websites,
 
 **Use Cases:** Government services, educational portals, and corporate intranets.
 
-## 8. Social Networking Websites(social/README.md)
+## [8. Social Networking Websites](social/README.md)
 
 **Concept:** Platforms enabling social interactions and content sharing.
 

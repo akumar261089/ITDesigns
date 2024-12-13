@@ -12,9 +12,8 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
             line-height: 1.6;
+            transition: background-color 0.5s ease, color 0.5s ease;
         }
         .container {
             max-width: 800px;
@@ -71,6 +70,14 @@
                 });
         }
 
+        function setDynamicTheme() {
+            const hour = new Date().getHours();
+            const isDayTime = hour >= 6 && hour < 18;
+            document.body.style.backgroundColor = isDayTime ? '#f9f9f9' : '#333';
+            document.body.style.color = isDayTime ? '#333' : '#f9f9f9';
+        }
+
+        setDynamicTheme();
         const params = new URLSearchParams(window.location.search);
         const page = params.get('page') || 'README';
         loadMarkdown(`${page}.md`);
