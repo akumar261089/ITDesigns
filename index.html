@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tutorial Site</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #0056b3;
+        }
+        #content {
+            padding: 10px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="?page=README">Home</a>
+            <a href="?page=about">About</a>
+            <a href="?page=contact">Contact</a>
+        </nav>
+        <div id="content">Loading content...</div>
+    </div>
+
+    <script>
+        function loadMarkdown(file) {
+            fetch(file)
+                .then(response => response.ok ? response.text() : "Content not found.")
+                .then(text => {
+                    document.getElementById("content").innerHTML = marked.parse(text);
+                })
+                .catch(err => {
+                    document.getElementById("content").innerHTML = "Error loading content.";
+                    console.error(err);
+                });
+        }
+
+        const params = new URLSearchParams(window.location.search);
+        const page = params.get('page') || 'README';
+        loadMarkdown(`${page}.md`);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</body>
+</html>
