@@ -1,6 +1,6 @@
-# ITDesigns
+# [ITDesigns](https://akumar261089.github.io/ITDesigns/)
 
-Welcome to the **ITDesigns**! This guide covers the different types of websites, their core components, and services. Whether you're building an e-commerce site or a complex ERP system, this tutorial will help you understand what functionalities are needed to develop a successful website.
+Welcome to **ITDesigns**! Here at ITDesigns, we specialize in creating and designing various types of web architectures from scratch. We take you through a comprehensive journey of understanding and building different website architectures, their core components, and essential services. Whether you're looking to develop a simple blog or a complex ERP system, our guide covers everything you need to know to create successful, full-fledged websites.
 
 ---
 
