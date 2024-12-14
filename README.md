@@ -4,6 +4,12 @@ Welcome to **ITDesigns**! Here at ITDesigns, we specialize in creating and desig
 
 ---
 
+## What We Do
+
+### Exploring Different Architecture Designs
+
+At ITDesigns, we delve into numerous website architectures, each with unique purposes and functionalities. Here's a glimpse of what we cover:
+
 ## [1. Static Websites](static/README.md)
 
 ### Concept:
